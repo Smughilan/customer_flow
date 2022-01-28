@@ -1,0 +1,31 @@
+.footer-wrapper-web {
+  @media only screen and(max-width:767px) {
+    display: none;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.footer-wrapper-mob {
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+  .blue-button-mob {
+    background: #2380ff;
+    padding: 13px 34px;
+    border: 0.8px solid #2380ff;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,122 @@
+@import "./Button.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: Roboto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+dl {
+  margin: 0px;
+}
+ul {
+  padding: 0px;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  padding-left: 135px;
+  padding-right: 135px;
+
+  @media only screen and (max-width: 767px) {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  @media only screen and (max-width: 767px) {
+    margin-bottom: 16px;
+  }
+
+  label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #898989;
+    margin-bottom: 7px;
+
+    span {
+      color: red;
+    }
+  }
+  .input {
+    height: 44px;
+    background: #ffffff;
+    border: 0.8px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  .text-area {
+    height: 90px;
+    background: #ffffff;
+    border: 0.8px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+}
+.form-check {
+  display: flex;
+  align-items: center;
+  label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2c3e50;
+    margin-left: 8px;
+  }
+  .form-check-input {
+    background-color: #60ca9a;
+    border-color: #60ca9a;
+    margin: 0px;
+    width: 24px;
+    height: 24px;
+  }
+  .form-check-input :checked {
+    background-color: #60ca9a;
+    border-color: #60ca9a;
+    margin: 0px;
+  }
+}
+.time-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  .time {
+    background: #ffffff;
+    border: 0.8px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    span {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      color: #2c3e50;
+    }
+  }
+}
+.input-number {
+  width: 31%;
+  @media only screen and (max-width: 767px) {
+    width: 100%;
+  }
+}

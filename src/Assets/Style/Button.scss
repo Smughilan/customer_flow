@@ -1,0 +1,62 @@
+.grey-button {
+  background: #ffffff;
+  border: 0.8px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 13px 34px;
+  margin-left: 135px;
+
+  span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2c3e50;
+  }
+}
+
+.blue-button {
+  background: #2380ff;
+  border-radius: 8px;
+  padding: 13px 34px;
+  border: 0.8px solid #2380ff;
+  box-sizing: border-box;
+  margin-right: 135px;
+  @media only screen and (max-width: 767px) {
+    width: 170px;
+    padding: 13px 33px;
+    height: 45px;
+  }
+
+  span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+}
+.white-button {
+  background: #ffffff;
+  border: 1px solid #2380ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 13px 60px;
+  margin-right: 135px;
+  @media only screen and (max-width: 767px) {
+    width: 170px;
+    padding: 13px 33px;
+    height: 45px;
+  }
+
+  span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2380ff;
+  }
+}
